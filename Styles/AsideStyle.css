@@ -1,0 +1,56 @@
+
+aside{
+    width: 17%;
+    color: white;
+    background-color: #212121;
+}
+.box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 15px;
+    padding: 12px 30px;
+    font-size: 14px;
+}
+#box1{
+    background-color: #303030;
+}
+
+.s1s1{
+    border-bottom: 1px solid #303030;
+    padding-bottom: 13px;
+}
+.s1s2{
+    padding-top: 10px;
+    border-bottom: 1px solid #303030;
+}
+.section2{
+    border-bottom: 1px solid #303030;
+}
+aside hr{
+    background-color: #303030;
+    
+}
+
+#Subscriptions, #More_from_youtube{
+    padding: 20px;
+    color: #A1A1A1;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.s3s1{
+    border-bottom: 1px solid #303030;
+    padding-bottom: 10px;
+}
+.s3s2{
+    padding-top: 10px;
+    border-bottom: 1px solid #303030;
+}
+.s3s3{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    font-size: 12px;
+}

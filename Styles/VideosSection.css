@@ -1,0 +1,47 @@
+.section{
+    width: 95%;
+    color: white;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    gap: 30px 20px;
+    padding:10px 30px;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    row-gap: 10px;
+    
+}
+
+.thumbnail img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.content{
+    display: flex;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+.title{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.name, .views{
+    font-size: 13px;
+    color: #b9b1b1;
+}

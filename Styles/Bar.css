@@ -1,0 +1,21 @@
+.whole{
+    width: 83%;
+}
+.bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    flex-wrap: wrap;
+
+}
+.barItem{
+    color: white;
+    background-color: #303030;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 20px;
+}
