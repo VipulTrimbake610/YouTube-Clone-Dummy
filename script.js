@@ -1,10 +1,11 @@
 const baseUrl = "https://www.googleapis.com/youtube/v3";
-const APIKey="AIzaSyBeQTEzcCN3giIt6FOkYDQ7tS-qP4eCykY";
+// const APIKey="AIzaSyBeQTEzcCN3giIt6FOkYDQ7tS-qP4eCykY";
+const APIKey="AIzaSyBYP0BIOpVyZ8PRsjqZ40VgU6BjdW7VjvM";
 getData("");
 async function getData(q){
     const response = await fetch(`${baseUrl}/search?key=${APIKey}&q:${q}&type=video&maxResults=20`);
     const data = await response.json();
-    // console.log(data)
+    console.log(data)
     for(let i=0;i<20;i++){
         let vi = data.items[i].id.videoId;
         getVideos(vi);
